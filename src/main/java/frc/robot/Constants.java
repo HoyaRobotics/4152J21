@@ -27,7 +27,73 @@ public final class Constants {
     public static final int FRONT_RIGHT_DRIVE = 30;
     public static final int INTAKE = 32;
     public static final int SHOOTER = 33;
-    //DriveBase
-    public static final double CONTROL_DEADBAND = 0.10;
+
+    // DriveBase
+
+
+
+
+   public static final double CONTROL_DEADBAND = 0.10;
+
+
+   public static final int SENSOR_UNITS_PER_ROTATION = 2048;
+
+
+   public static final int ENCODER_UNITS_PER_ROTATION = 24140;
+
+
+   public static final int ACCEL_UNITS = 473000;
+
+
+   public static final int DECEL_UNITS = ACCEL_UNITS;
+
+
+
+
+
+
+
+
+
+
+
+// Intake
+
+
+
+
+   public static final double INTAKE_SPEED = 0.2;
+
+
+   public static final double BALL_RELEASE_TIME = 0.1;
+
+
+
+
+
+
+
+
+
+
+
+// Shooter
+
+
+
+
+   public static final double SHOOTER_P = 0.0003;
+
+
+   public static final double SHOOTER_FF = 0.00019;
+
+
+   public static final double RPM_STABILITY_ERROR = 25;
+
+
+
+
+
+
     
 }//end of Constants class - don't put code after this!
